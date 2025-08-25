@@ -24,6 +24,11 @@ jobs:
           version: 1.7.31
           tinytex: true
 
+      - name: Install librsvg2
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y librsvg2-bin
+
       - name: Convert notebooks to PDF
         run: |
           for file in *.ipynb; do
