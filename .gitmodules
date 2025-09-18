@@ -1,0 +1,3 @@
+[submodule "hw02_new"]
+	path = hw02_new
+	url = https://github.com/bee-envsys-cornell/hw02
